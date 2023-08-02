@@ -1,6 +1,3 @@
-import { useState } from "react";
-
-import Button from "./components/Button";
 import { Navbar } from "./components/Header/Header";
 import { QRCodeGenerator } from "./components/Main/QRCodeGenerator";
 

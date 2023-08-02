@@ -15,7 +15,6 @@ export const LocationSearch = () => {
   };
 
   const handleSearch = () => {
-    // Use your Google Maps API key here
     const apiKey = "AIzaSyClZE5LZVoen_GxpjEP9T2UnfYRL5KJcFA";
     const apiUrl = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=${searchQuery}&key=${apiKey}`;
 
