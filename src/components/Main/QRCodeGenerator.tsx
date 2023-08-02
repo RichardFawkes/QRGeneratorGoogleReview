@@ -6,7 +6,7 @@ export const QRCodeGenerator = () => {
 
   const generateQRCode = () => {
     if (qrCodeLink.trim() !== "") {
-      const qrCodeApiUrl = `http://chart.apis.google.com/chart?cht=qr&chl=${qrCodeLink}&chs=120x120`;
+      const qrCodeApiUrl = `http://chart.apis.google.com/chart?cht=qr&chl=${qrCodeLink}&chs=500x500`;
       setQRCodeImage(qrCodeApiUrl);
     }
   };
